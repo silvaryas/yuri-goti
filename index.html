@@ -8,13 +8,13 @@
 <body>
     <form action="" method="post">
         <p>Digite seu nome</p>
-        <input type="text" name="nome" placeholder="Ex: Ryan Silva">
+        <input type="text" name="nome" placeholder="Ex: Ryan Silva" required>
         <br>
         <p>Digite seu email</p>
-        <input type="email" name="email" placeholder="Ex:@gmail.com">
+        <input type="email" name="email" placeholder="Ex:@gmail.com" required>
         <br> 
         <p>Digite seu numero</p>
-        <input type="numero" name="numero" placeholder="(xx) xxxxx-xxxx">
+        <input type="numero" name="numero" placeholder="(xx) xxxxx-xxxx" required>
         <br>
         <p></p>
         <input type="radio" name="work" value="Sim" checked> Com certeza
@@ -22,14 +22,18 @@
         <br>
         <p></p>
         <select name="estados" id="">
+            <p>Em que estado voce mora</p>
             <option value="1">Rio de janeiro</option>
             <option value="2">São Paulo</option>
             <option value="3">Parana</option>
             <option value="4">santa catarina</option>
         </select>
-        
-        
+        <br>
+        <textarea name="obscervações" id=""></textarea>
+        <br>
         <input type="checkbox" name="novidades" checked> Aceito receber novidades da empresa
+        <button type="submit">faz o l</button>
+        <button type="reset">nao faz o l</button>
 
     </form>
 </body>
